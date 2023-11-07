@@ -1,0 +1,2 @@
+public class javaPart6 {
+}
