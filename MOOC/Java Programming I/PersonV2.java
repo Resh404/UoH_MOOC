@@ -37,6 +37,10 @@ public class PersonV2 {
         this.name = nam;
         this.birthday = new SimpleDate(day, month, year);
     }
+    public PersonV2(String name, int height){
+        this.name = name;
+        this.height = height;
+    }
 
     // other constructors and methods
 
@@ -92,6 +96,8 @@ public class PersonV2 {
     @Override
     public String toString() {
         //return this.name + ", age " + this.age + " years";
-        return ("Ex10: " + this.name + " has a friend called " + pet.getName() + " (" + pet.getBreed() + ")");
+        /*return ("Ex10: " + this.name + " has a friend called " +
+                pet.getName() + " (" + pet.getBreed() + ")");*/
+        return ("part6 Ex7: " + this.name + " (" + this.height + ")");
     }
 }
