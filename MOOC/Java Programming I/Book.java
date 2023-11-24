@@ -1,9 +1,15 @@
 public class Book {
-    private String name;
     private int pages;
     private int pupYear;
+    private int id;
+    private String name;
     private String author;
 
+    //Constructors
+    public Book(int id, String name){
+        this.id = id;
+        this.name = name;
+    }
     public Book(String name, int pages, int pupYear){
         this.name = name;
         this.pages = pages;
@@ -13,6 +19,8 @@ public class Book {
         this.name = name;
         this.pupYear = pupYear;
     }
+
+    //Methods
     public String getAuthor(){
         return this.author;
     }
@@ -21,6 +29,9 @@ public class Book {
     }
     public int getPages(){
         return this.pages;
+    }
+    public int getId(){
+        return this.id;
     }
     public boolean equals(Object compared){
         if (this == compared){

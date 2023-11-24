@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.Scanner;
 
 //Exercises from Java Programming I part 6 (https://java-programming.mooc.fi/).
