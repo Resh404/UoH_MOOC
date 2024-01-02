@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 //Exercises from Java Programming I part 3 (https://java-programming.mooc.fi/).
 //no template could be found for the exercises.
-public class javaPart3 {
+public class JavaPart3 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
         ArrayList<String> list = new ArrayList<>();

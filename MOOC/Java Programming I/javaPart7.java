@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 //Exercises from Java Programming I part 6 (https://java-programming.mooc.fi/).
 //no template could be found for the exercises.
-public class javaPart7 {
+public class JavaPart7 {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
 

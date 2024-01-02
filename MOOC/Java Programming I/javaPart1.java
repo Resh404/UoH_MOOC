@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 //Exercises from 2013 Object-oriented programming, part 1 (https://tmc.mooc.fi/org/mooc/courses/277)
-public class javaPart1 {
+public class JavaPart1 {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
 
